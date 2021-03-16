@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>My Fabulous Garden</title>
+    
+</head>
+<body>
+    <header>
+        <title>My Fabulous Garden</title>
+        <link rel='stylesheet' href='css/style.css'>
+
+    </header>
+    <main>
+        <div id=form>
+            <form name= 'my flowers'>
+
+                <label for='name'> Flowers name</label>
+                <input type='text' name='name' id='name' required>
+
+                
+                <label for='category'>Flower category</label>
+                <select name='category' id='category'>
+                    <option value='orchid'>orchid</option>
+                    <option value='tulip'>tulip</option>
+                    <option value='sunflower'>sunflower</option>
+                    <option value='gardenias'>gardenias</option>
+                    <option value='roses'>roses</option>
+                    <option value='alstroemerias'>alstroemerias</option>
+                    <option value='peonis'>peonis</option>
+                </select>
+
+                <label for='season'>flower season</label>
+                <input type='text' name='season' id='season'required>
+
+
+                <button id='save'>save</button>
+                <button id='clear'>clear</button>
+            </form>
+        </div>
+        <div id='Ftable'>
+            <table id='table'>
+
+            </table>
+
+        </div>
+    </main>
+    <footer>
+        <script src='app.js'></script>
+    </footer>
+</body>
+</html>
